@@ -36,6 +36,7 @@ GameLayer::~GameLayer () {
 
 CCScene* GameLayer::scene()
 {
+int i;
     // 'scene' is an autorelease object
     CCScene *scene = CCScene::create();
     
